@@ -1,9 +1,23 @@
+// TIER
+
+$tier-white: #FFFAF6 !default;
+$tier-green: #067A72 !default;
+$tier-green-muted: #C8EAE8 !default;
+$tier-green-highlight: #20E0CC !default;
+$tier-red: #F4462C !default;
+$tier-red-muted: #FFCCB4 !default;
+$tier-red-highlight: #FFAE80 !default;
+$tier-blue: #0E1A50 !default;
+$tier-blue-muted: #BAD8FC !default;
+$tier-blue-highlight: #66ACFF !default;
+
+
+
 //
 // Typography
 //
 
-$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$body-font-family: "Helvetica Neue", Arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
 $body-line-height: 1.4 !default;
@@ -70,19 +84,19 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
-$body-background-color: $red-000 !default;
-$sidebar-color: $grey-lt-000 !default;
+$body-background-color: $tier-white !default;
+$sidebar-color: $tier-green-muted !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
 
-$body-text-color: $grey-dk-100 !default;
-$body-heading-color: $grey-dk-300 !default;
+$body-text-color: $tier-blue !default;
+$body-heading-color: $tier-blue !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
+$link-color: $tier-blue  !default;
+$btn-primary-color: $tier-blue-highlight !default;
 $base-button-color: #f7f7f7 !default;
 
 //
