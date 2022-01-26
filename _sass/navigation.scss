@@ -112,6 +112,23 @@
         .nav-list-expander {
           color: $nav-child-link-color;
         }
+
+        > .nav-list {
+          padding-left: $sp-3;
+          list-style: none;
+
+          .nav-list-item {
+            position: relative;
+
+            .nav-list-link {
+              color: $nav-child-link-color;
+            }
+
+            .nav-list-expander {
+              color: $nav-child-link-color;
+            }
+          }
+        }
       }
     }
 

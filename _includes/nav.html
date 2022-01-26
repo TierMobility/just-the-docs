@@ -89,6 +89,9 @@
               {%- endif -%}
             </li>
             {%- endunless -%}
+            {% if page.url == child.url %}
+              {% include toc.html html=content class="nav-list" item_class="nav-list-item" anchor_class="nav-list-link" %}
+            {% endif %}
           {%- endfor -%}
           </ul>
         {%- endif -%}
