@@ -17,6 +17,23 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face{
+  font-display:swap;
+  font-family:Neue Plak;
+  font-style:normal;
+  font-weight:400;
+  src:url(fonts/NeuePlakText-Regular-46bd80600790d7aa4e0f59fe976f3194.ttf) format("truetype")}
+@font-face{font-display:swap;
+  font-family:Neue Plak;
+  font-style:normal;
+  font-weight:600;
+  src:url(fonts/NeuePlakText-Bold-b4c5c72cae5a1c43ff753dc0300f00a7.ttf) format("truetype")}
+@font-face{font-display:swap;
+  font-family:Neue Plak Extended;
+  font-style:normal;
+  font-weight:800;
+  src:url(fonts/NeuePlak-ExtendedBlack-322e5cf1a0689b45805f7c3655b82cce.ttf) format("truetype")}
+
 body {
   font-family: $body-font-family;
   font-size: inherit;
