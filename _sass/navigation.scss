@@ -118,8 +118,8 @@
           list-style: none;
           background-image: linear-gradient(
             -90deg,
-            rgba($tier-white, 0.5) 0%,
-            rgba($tier-white, 0) 100%
+            rgba(darken($feedback-color, 10%), 1.0) 0%,
+            rgba(darken($feedback-color, 10%), 0.0) 100%
           );
 
           .nav-list-item {
@@ -127,6 +127,15 @@
 
             .nav-list-link {
               color: $nav-child-link-color;
+
+              &:hover,
+              &.active {
+                background-image: linear-gradient(
+                  -90deg,
+                  rgba(darken($feedback-color, 10%), 1.0) 0%,
+                  rgba(darken($feedback-color, 10%), 0.0) 100%
+                );
+              }
             }
 
             .nav-list-expander {
