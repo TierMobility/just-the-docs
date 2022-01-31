@@ -98,7 +98,7 @@
     }
 
     > .nav-list {
-      display: none;
+      /* display: none; */
       padding-left: $sp-3;
       list-style: none;
 
@@ -116,6 +116,11 @@
         > .nav-list {
           padding-left: $sp-3;
           list-style: none;
+          background-image: linear-gradient(
+            -90deg,
+            rgba($tier-white, 0.5) 0%,
+            rgba($tier-white, 0) 100%
+          );
 
           .nav-list-item {
             position: relative;
@@ -126,6 +131,11 @@
 
             .nav-list-expander {
               color: $nav-child-link-color;
+            }
+
+            > ul {
+              list-style: none;
+              padding-left: $sp-3;
             }
           }
         }
